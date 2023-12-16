@@ -9,3 +9,6 @@ A essência da proposta é fomentar uma cultura de aprendizado por meio de recom
 Ao colaborarmos estreitamente com grandes empresas, além de compreendermos suas necessidades de mão de obra, qualificamos nossos usuários por meio de trilhas de conhecimento alinhadas com as demandas do mercado. Empresas podem explorar nosso abrangente banco de dados, identificando alunos destacados e avaliando sua viabilidade como colaboradores. Se o perfil não atender às expectativas, o usuário, ainda assim, sai do projeto com um currículo mais robusto, aumentando significativamente suas chances de obter um emprego de melhor qualidade financeira e de vida.
 
 Além disso, o projeto busca promover não apenas o crescimento individual, mas também contribuir para uma transformação social, reduzindo as disparidades de oportunidades educacionais e econômicas nas camadas mais vulneráveis da sociedade brasileira.
+
+Demonstração do jogo de avaliação de nível de consciência.
+![image](https://github.com/MathOak/ArcaThon/assets/81950828/cb0ca68b-619b-4fd6-bcd1-188c15887ba3)
