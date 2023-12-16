@@ -12,3 +12,6 @@ Além disso, o projeto busca promover não apenas o crescimento individual, mas 
 
 Demonstração do jogo de avaliação de nível de consciência.
 ![image](https://github.com/MathOak/ArcaThon/assets/81950828/cb0ca68b-619b-4fd6-bcd1-188c15887ba3)
+
+Possível Resultado
+![image](https://github.com/MathOak/ArcaThon/assets/81950828/4ef5a0e9-108d-4542-b159-71c977dc4e33)
