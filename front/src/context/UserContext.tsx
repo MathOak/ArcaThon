@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+'use client';
+import { createContext, useEffect, useState } from "react";
 
 export const UserContext = createContext<any>({} as any);
 
@@ -11,6 +12,9 @@ const UserProvider = ({ children }: any) => {
     xpub: process.env.walletXpub,
     testnet: true,
   });
+  useEffect(() => {
+    console.log("wallet", wallet);
+  }, [wallet]);
 
   return (
     <UserContext.Provider
