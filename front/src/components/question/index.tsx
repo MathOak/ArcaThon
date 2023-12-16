@@ -1,11 +1,9 @@
-"use client";
-import Image from "next/image";
-import styles from "./page.module.css";
-
-import TestPage from "@/components/testPage";
-import UserProvider from "@/context/UserContext";
+import { useState } from "react"; // Importe os módulos necessários do React
+// Importe os módulos do Next.js e os estilos CSS necessários
 import Head from "next/head";
-import { useState } from "react";
+import styles from './YourComponent.module.css'; 
+
+// Aqui você pode importar seu arquivo de perguntas
 const questions = [
   {
     question: "O que é Educação financeira?",
@@ -43,8 +41,8 @@ const questions = [
     ],
   },
 ];
-export default function Home() {
-  const [questionsList, setQuestions] = useState(questions);
+
+export default function YourComponent() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
 
@@ -77,24 +75,32 @@ export default function Home() {
     // Utilize o estado currentIndex para determinar a pergunta atual
     // Utilize o array de perguntas importado para obter as perguntas e respostas
   };
+
+  // Use os hooks do React, como useState, para gerenciar o estado e os eventos
+
   return (
-    <UserProvider>
+    <>
       <Head>
         <title>Dumbo Cred</title>
         <link rel="stylesheet" href="style.css" />
       </Head>
-      <main className={styles.main}>
-        <h2>DUMBO QUIZ</h2>
-        <div className="content">
-          <span className="spnQtd"></span>
-          <span className="question"></span>
-          <div className="answers"></div>
+      <h2>DUMBO QUIZ</h2>
+      <main>
+        <div className={styles.content}>
+          <span className={styles.spnQtd}></span>
+          <span className={styles.question}></span>
+          <div className={styles.answers}></div>
         </div>
-        <div className="finish">
+        <div className={styles.finish}>
           <span></span>
           <button>Reiniciar</button>
         </div>
       </main>
-    </UserProvider>
+      {/* Coloque seu script JS dentro de uma função do componente ou utilize React useEffect para carregar o script */}
+      {/* <script src="script.js" type="module"></script> */}
+    </>
+
+    // Aqui você pode retornar o JSX para renderizar sua interface de usuário
+    // Utilize as variáveis de estado e as funções definidas acima para exibir as perguntas e respostas
   );
 }
