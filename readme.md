@@ -15,3 +15,12 @@ Demonstração do jogo de avaliação de nível de consciência.
 
 
 ![image](https://github.com/MathOak/ArcaThon/assets/81950828/4ef5a0e9-108d-4542-b159-71c977dc4e33)
+
+
+#Para Iniciar
+Preencha os dados da wallet e API key
+depois inicie o front com o comando
+yarn dev ou npm run dev
+
+inicie o back com o comando
+yarn start ou npm run start
